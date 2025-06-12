@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.logo-navbar {
+  height: 50px;
+  width: auto;
+}
+
+/* Hero блок */
+.hero-image {
+  background: url('/media/mainphoto.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh; /* весь экран */
+  position: relative;
+}
+
+.overlay-text {
+  position: relative;
+  z-index: 2;
+}
+.custom-navbar {
+  background-color: #F8F8F8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
